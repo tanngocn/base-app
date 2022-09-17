@@ -1,9 +1,15 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
+    "sourceMap": true,
     "allowJs": true,
-    "skipLibCheck": true,
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/public/*": ["public/*"]
+    },
+    "skipLibCheck": false,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,

@@ -13,7 +13,6 @@ function Home() {
   return (
     <div>
       <button onClick={handleCLick}>increment</button>
-      <button onClick={handleCLick}>decrement</button>
     </div>
   )
 }

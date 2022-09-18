@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 import { ReactElement, ReactNode } from 'react'
 import { appWithTranslation } from 'next-i18next';
 import { PersistGate } from 'redux-persist/integration/react'
-import config from './redux/configStore';
+import config from '@/redux/configStore';
 import '../styles/_app.scss'
 
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {

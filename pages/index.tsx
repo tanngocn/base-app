@@ -3,7 +3,7 @@ import { ReactElement } from 'react';
 import { useDispatch } from 'react-redux';
 import Layout from '@/components/common/layout';
 
-import { setToken } from './redux/auth/slice';
+import { setToken } from '../redux/auth/slice';
 
 function Home() {
   const dispatch = useDispatch();
